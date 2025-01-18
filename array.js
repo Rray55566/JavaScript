@@ -267,11 +267,141 @@
 
 //Write a program to calculate the sum of all elements in an array using a for loop.
 
-let num = [10, 20, 30, 40, 50];
+// let num = [10, 20, 30, 40, 50];
 
-let sum = 0;
+// let sum = 0;
 
-for(let i=0; i < num.length; i++) {
-    sum += num[i];
-}
-console.log(sum);
+// for(let i=0; i < num.length; i++) {
+//     sum += num[i];
+// }
+// console.log(sum);
+
+
+
+// Array Search
+
+// includes
+
+// let fruits = ["apple", "mango", "banana"];
+// console.log(fruits.includes("apple"));
+// console.log(fruits.includes("orange"));
+
+
+//indexof
+
+// let num = [10, 20, 30, 40, 50];
+// console.log(num.indexOf(30));
+// console.log(num.indexOf(66));          // -1
+
+
+//lastIndexOf
+
+// let num = [10, 50, 20, 30, 40, 50];
+// console.log(num.lastIndexOf(50));
+// console.log(num.lastIndexOf(150));       // -1
+
+
+//find
+
+// let digits = [5, 34, 67, 88, 4, 100];
+// let find = digits.find(num => num > 20);
+// console.log(find); 
+
+
+// findIndex
+
+// let digits = [5, 34, 67, 88, 4, 100];
+// let index = digits.findIndex(num => num > 56);
+// console.log(index);
+
+
+// filter
+
+// let digits = [5, 34, 67, 88, 4, 100];
+// let filter = digits.filter(num => num > 55);
+// console.log(filter); 
+
+
+
+// sorting
+
+// let fruits = ["apple", "banana", "orange", "mango"];
+// fruits.sort();
+// console.log(fruits);
+
+
+// let num = [20, 190, 1, 3, 6, 76, 43];
+// num.sort((a, b) => a - b);
+// console.log(num);                       // Ascending
+
+
+
+// let num = [20, 190, 1, 3, 6, 76, 43];
+// num.sort((a, b) => b - a);
+// console.log(num);                   
+
+
+
+// reverse
+
+// let words = ["apple", "banana", "orange", "lichi"];
+// // words.sort().reverse();
+// words.reverse();
+// console.log(words);
+
+
+//You have an array of numbers: [4, 2, 8, 1, 7]. Sort the array in ascending order using sort().
+
+// let num = [4, 2, 8, 1, 7];
+// num.sort((a, b) => a - b);
+// console.log(num);
+// num.sort((a, b) => b - a);
+// console.log(num);
+
+
+// toshorted
+
+// let num = [3, 1, 4, 1, 5, 9];
+// let x = num.toSorted();
+// console.log(x);
+
+
+//Given the following array of objects, write a program to sort it by age in ascending order:
+
+
+// let people = [
+//     {name: "rahul", age: 30},
+//     {name: "karan", age: 25},
+//     {name: "boby", age: 35}
+// ];
+
+// people.sort((a, b) => a.age - b.age);
+// people.sort((a, b) => a.name.localeCompare(b.name));
+// console.log(people);
+
+
+//Write a JavaScript program that counts how many odd and even numbers there are in an array.
+
+// let num = [1, 2, 3, 4, 5, 6];
+// let even = 0;
+// let odd = 0;
+
+// for(let i = 0; i<num.length; i++){
+//     if(num[i] % 2 === 0){
+//         even++;
+//     } else {
+//          odd++;
+//     }
+// };
+// console.log("even count :", even);
+// console.log("odd count:", odd);
+
+
+//Write a JavaScript program that finds the largest and smallest number in an array.
+
+// let num = [23, 12, 35, 78, 67];
+
+// let largest = Math.max(...num);
+// let smallest = Math.min(...num);
+// console.log("largest :", largest);
+// console.log("smallest :", smallest);
